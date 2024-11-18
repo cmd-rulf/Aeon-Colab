@@ -1,4 +1,3 @@
-aiohttp
 aiofiles
 aioshutil
 anytree==2.8.0
@@ -10,7 +9,6 @@ bencoding
 cinemagoer
 cloudscraper
 dnspython
-electrogram
 feedparser
 flask
 gevent
@@ -19,7 +17,7 @@ google-auth-httplib2
 google-auth-oauthlib
 gunicorn
 httpx
-langcodes
+langcodes[data]
 lxml
 motor
 mutagen
@@ -32,12 +30,14 @@ pycountry
 python-dotenv
 pyshorteners
 python-magic
+quoters
 qbittorrent-api
 requests
 speedtest-cli
 telegraph
 tenacity
-uv
+tgcrypto
 uvloop
 xattr
-yt-dlp[default]
+yt-dlp
+git+https://github.com/5hojib/pyrogram.git@dev
